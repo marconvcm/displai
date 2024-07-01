@@ -67,7 +67,7 @@ export async function getStaticPaths() {
 
   let fullPaths = [];
   for (let i = 0; i < results.resources.length; i++) {
-    fullPaths.push({ params: { photoId: i.toString() } });
+    fullPaths.push({ params: { wallpaperId: i.toString() } });
   }
 
   return {
