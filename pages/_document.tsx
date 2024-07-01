@@ -1,4 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 class MyDocument extends Document {
   render() {
@@ -25,6 +26,7 @@ class MyDocument extends Document {
         <body className="bg-black antialiased">
           <Main />
           <NextScript />
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
         </body>
       </Html>
     );
