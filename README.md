@@ -1,31 +1,32 @@
-# Next.js & Cloudinary example app
+# Displai - Free Wallpapers
 
-This example shows how to create an image gallery site using Next.js, [Cloudinary](https://cloudinary.com), and [Tailwind](https://tailwindcss.com).
+Displai is a website that offers a collection of free wallpapers for users to download and use on their devices. It is designed to provide a visually appealing and user-friendly experience.
 
-## Deploy your own
+## Features
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or view the demo [here](https://nextconf-images.vercel.app/)
+- Wide variety of wallpapers: Displai offers a diverse range of wallpapers, including nature, landscapes, abstract art, and more.
+- High-quality images: All wallpapers are carefully selected and optimized for different screen sizes, ensuring crisp and vibrant visuals.
+- Easy download: Users can easily download their favorite wallpapers with just a few clicks.
+- Regular updates: The wallpaper collection is regularly updated with new additions, providing fresh options for users.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cloudinary&project-name=nextjs-image-gallery&repository-name=with-cloudinary&env=NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET,CLOUDINARY_FOLDER&envDescription=API%20Keys%20from%20Cloudinary%20needed%20to%20run%20this%20application.)
+## Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To access Displai and start browsing the free wallpapers, follow these steps:
 
-## How to use
+1. Open your web browser and visit [https://displai.app](https://displai.app).
+2. Browse through the available wallpapers and click on the ones you like to view them in full size.
+3. To download a wallpaper, click on the download button or right-click on the image and select "Save Image As".
+4. Enjoy your new wallpaper on your device!
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example::
+## About the Creator
 
-```bash
- npx create-next-app --example with-cloudinary nextjs-image-gallery
-```
+Displai was created by [@marconvcm](https://instagram.com), a talented artist and photographer. His passion for capturing stunning visuals is reflected in the carefully curated wallpaper collection.
 
-```bash
-yarn create next-app --example with-cloudinary nextjs-image-gallery
-```
+## Contributing
 
-```bash
-pnpm create next-app --example with-cloudinary nextjs-image-gallery
-```
+Contributions to Displai are not currently accepted. However, if you have any suggestions or feedback, feel free to reach out to [@marconvcm](https://instagram.com/marconvcm) on Instagram.
 
-## References
+## License
 
-- Cloudinary API: https://cloudinary.com/documentation/transformation_reference
+The wallpapers provided by Displai are free to use for personal purposes. However, please refer to the individual license terms for each wallpaper before using them for commercial purposes.
+
