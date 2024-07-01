@@ -9,8 +9,8 @@ import type { ImageProps } from "../../utils/types";
 
 const Home: NextPage = ({ currentPhoto }: { currentPhoto: ImageProps }) => {
   const router = useRouter();
-  const { photoId } = router.query;
-  let index = Number(photoId);
+  const { wallpaperId } = router.query;
+  let index = Number(wallpaperId);
 
   const currentPhotoUrl = `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_2560/${currentPhoto.public_id}.${currentPhoto.format}`;
 
@@ -47,7 +47,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   }
 
   const currentPhoto = reducedResults.find(
-    (img) => img.id === Number(context.params.photoId),
+    (img) => img.id === Number(context.params.wallpaperId),
   );
   currentPhoto.blurDataUrl = await getBase64ImageUrl(currentPhoto);
 

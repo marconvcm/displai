@@ -20,7 +20,7 @@ export default function Carousel({
     router.push("/", undefined, { shallow: true });
   }
 
-  function changePhotoId(newVal: number) {
+  function changewallpaperId(newVal: number) {
     return newVal;
   }
 
@@ -44,7 +44,7 @@ export default function Carousel({
       </button>
       <SharedModal
         index={index}
-        changePhotoId={changePhotoId}
+        changewallpaperId={changewallpaperId}
         currentPhoto={currentPhoto}
         closeModal={closeModal}
         navigation={false}
