@@ -27,6 +27,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9007133283762688" crossOrigin="anonymous"></script>
         </body>
       </Html>
     );
