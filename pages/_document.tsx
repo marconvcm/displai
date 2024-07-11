@@ -1,5 +1,4 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
-import { GoogleAnalytics } from '@next/third-parties/google'
 
 class MyDocument extends Document {
   render() {
@@ -26,7 +25,8 @@ class MyDocument extends Document {
         <body className="bg-black antialiased">
           <Main />
           <NextScript />
-          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-30237BTBY8"></script>
+          <script dangerouslySetInnerHTML={{ __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-30237BTBY8');` }}></script>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9007133283762688" crossOrigin="anonymous"></script>
         </body>
       </Html>
